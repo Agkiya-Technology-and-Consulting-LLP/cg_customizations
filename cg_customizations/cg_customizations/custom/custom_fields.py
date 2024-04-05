@@ -1,7 +1,7 @@
 
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
-
+# Custom Fields
 def execute():
     custom_fields ={
     "Employee Advance": [
