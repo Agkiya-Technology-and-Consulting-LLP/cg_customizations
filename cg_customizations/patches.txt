@@ -6,4 +6,4 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
-execute:from cg_customizations.cg_customizations.custom.custom_fields import setup_fixtures;setup_fixtures()
+execute:from cg_customizations.cg_customizations.custom.custom_fields import setup_fixtures;setup_fixtures() #
