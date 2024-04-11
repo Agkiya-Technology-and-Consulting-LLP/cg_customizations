@@ -24,7 +24,8 @@ def setup_fixtures():
             "fieldname":"custom_advances",
             "fieldtype":"Table",
             "label":"Advances",
-            "insert_after":"custom_advance_breakup"
+            "insert_after":"custom_advance_breakup",
+            "options":"Advance Breakup"
         },
         
      ],
