@@ -21,26 +21,36 @@
   {
    "fieldname": "type",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Type"
   },
   {
    "fieldname": "number_of_expenses",
    "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Number of expenses"
   },
   {
    "fieldname": "total",
    "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Total"
   },
   {
    "fieldname": "sanctioned_amount",
    "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Sanctioned Amount"
   },
   {
    "fieldname": "project",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Project",
    "options": "Project"
   }
@@ -48,7 +58,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-14 16:16:59.861065",
+ "modified": "2024-04-14 19:52:38.570592",
  "modified_by": "Administrator",
  "module": "Cg Customizations",
  "name": "Expense Summery",
