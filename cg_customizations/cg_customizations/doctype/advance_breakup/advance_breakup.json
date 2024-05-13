@@ -14,24 +14,30 @@
   {
    "fieldname": "category",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category",
    "options": "Advance Type"
   },
   {
    "fieldname": "amount",
    "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Amount"
   },
   {
    "fieldname": "purpose",
    "fieldtype": "Small Text",
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Purpose"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-05 17:30:07.523710",
+ "modified": "2024-05-13 20:14:29.603648",
  "modified_by": "Administrator",
  "module": "Cg Customizations",
  "name": "Advance Breakup",
