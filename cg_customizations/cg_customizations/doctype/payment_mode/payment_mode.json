@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:payment_mode",
  "creation": "2024-05-13 19:57:32.055444",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -18,15 +19,17 @@
   {
    "fieldname": "payment_mode",
    "fieldtype": "Data",
-   "label": "Payment Mode"
+   "label": "Payment Mode",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-13 19:58:28.725837",
+ "modified": "2024-05-13 21:41:49.869020",
  "modified_by": "Administrator",
  "module": "Cg Customizations",
  "name": "Payment Mode",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
